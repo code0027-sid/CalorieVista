@@ -1,0 +1,54 @@
+.food-input-page {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.mode-toggle {
+  margin-bottom: 20px;
+}
+
+.mode-toggle button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.mode-toggle button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.manual-mode, .ai-mode {
+  margin-bottom: 20px;
+}
+
+.manual-mode input, .manual-mode select, .ai-mode input {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.manual-mode button, .ai-mode button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.manual-mode button:disabled, .ai-mode button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.daily-chart {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
